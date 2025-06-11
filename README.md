@@ -123,19 +123,6 @@ The game uses SQLite with SQLAlchemy ORM:
 - SQLAlchemy 2.0+
 - colorama (for colored terminal output)
 
-### File Structure
-\`\`\`
-monster_game/
-├── monster_game.py      # Main entry point
-├── cli.py              # Command-line interface
-├── game_engine.py      # Core game logic
-├── models.py           # Database models
-├── game_data.py        # Game data and seeding
-├── setup.py            # Setup script
-├── requirements.txt    # Python dependencies
-├── README.md           # This file
-└── monster_game.db     # SQLite database (created on first run)
-\`\`\`
 
 ### Key Classes
 - `GameEngine`: Core game logic and database operations
